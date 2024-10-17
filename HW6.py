@@ -1,4 +1,4 @@
-import pandas as pd
+#import pandas as pd
 
 #Question 1
 def fibonacci(n):
@@ -25,6 +25,12 @@ def fibonacci(n):
     # It then enters a loop that starts from 2 and ends at n (exclusive). For each iteration of the loop, the function appends the sum of the last two numbers in the fib list to the end of the list. This is the key step that generates each new number in the Fibonacci sequence.
     # Finally, the function returns the fib list, which now contains the first n numbers of the Fibonacci sequence.
 
+#Question 2
+
+#git init
+#git add .
+#git commit -m "commit"
+#git push -u origin main
 
 #Question 3
 def is_prime(num):
@@ -86,6 +92,7 @@ for i in range(1, n+1):
 print("The factorial of 23 is : ", end="")
 print(fact)
 
+
 #Question 7
 def normalize_data(data):
     min_val = min(data)
@@ -128,6 +135,7 @@ def count_vowels(string):
             count += 1
     return count
 
+#R code is in R file
 
 #Question 10
 # The provided binary string translates to "You've completed the assignment. Congratulations!" in text.
